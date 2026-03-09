@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# build
+.build
+dist
+.cache
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# database (sqlite nếu dùng local)
+.tmp
+data/*.db
+data/*.sqlite
+
+# uploads (tuỳ project, nếu không muốn push ảnh)
+public/uploads
